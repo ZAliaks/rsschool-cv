@@ -36,17 +36,9 @@ I am 41 years old. Now I work as the head of the power plant. I have been workin
 No experience in IT. But there is 17 years of experience in the company as an engineer and head of service
 
 ---
-## Work experience (educational projects):
-
-- [Eco-sounds](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/eco-saunds/)
-- [Photographer's portfolio](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/portfolio/)
-- [My CV](https://zaliaks.github.io/rsschool-cv/)
-- [Api Image-galery](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/image-galery/)
-- [Game tic-tac-toe](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/tic-tac-toe/)
-
----
 
 ## Code examples:
+
 ```
 function bingo(ticket, win){
   if(ticket.filter(a => a[0].split('').some(b => b.charCodeAt(0) == a[1])).length >= win){
@@ -55,6 +47,17 @@ function bingo(ticket, win){
   return "Loser!"
 }
 ```
+
+---
+
+## Work experience (educational projects):
+
+- [Eco-sounds](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/eco-saunds/)
+- [Photographer's portfolio](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/portfolio/)
+- [My CV](https://zaliaks.github.io/rsschool-cv/)
+- [Api Image-galery](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/image-galery/)
+- [Game tic-tac-toe](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/tic-tac-toe/)
+
 ---
 
 ## Education:
@@ -73,7 +76,4 @@ function bingo(ticket, win){
 
 - Russian - Native
 - Belarusian - Native
-- English - A2 (self-study)
-
----
-March 2022
+- English - A2
