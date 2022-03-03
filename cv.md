@@ -76,4 +76,7 @@ function bingo(ticket, win){
 
 - Russian - Native
 - Belarusian - Native
-- English - A2
+- English - A2 (self-study)
+
+---
+March 2022
