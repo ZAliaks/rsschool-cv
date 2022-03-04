@@ -36,20 +36,6 @@ I am 41 years old. Now I work as the head of the power plant. I have been workin
 No experience in IT. But there is 17 years of experience in the company as an engineer and head of service
 
 ---
-
-## Code examples:
-
-```
-function bingo(ticket, win){
-  if(ticket.filter(a => a[0].split('').some(b => b.charCodeAt(0) == a[1])).length >= win){
-    return "Winner!"
-  }
-  return "Loser!"
-}
-```
-
----
-
 ## Work experience (educational projects):
 
 - [Eco-sounds](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/eco-saunds/)
@@ -58,6 +44,17 @@ function bingo(ticket, win){
 - [Api Image-galery](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/image-galery/)
 - [Game tic-tac-toe](https://rolling-scopes-school.github.io/zaliaks-JSFEPRESCHOOL/tic-tac-toe/)
 
+---
+
+## Code examples:
+```
+function bingo(ticket, win){
+  if(ticket.filter(a => a[0].split('').some(b => b.charCodeAt(0) == a[1])).length >= win){
+    return "Winner!"
+  }
+  return "Loser!"
+}
+```
 ---
 
 ## Education:
