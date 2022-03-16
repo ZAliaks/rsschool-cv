@@ -47,7 +47,7 @@ body {
   color: #4d2323;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
   min-height: 50px;
 }
@@ -262,52 +262,43 @@ body {
 .section-item a:hover {
   color: #4d2323;
 }
-
+.contacts-item{
+padding-left: 30px;
+}
 .contacts-item:before {
   content: '';
   position: absolute;
   top: 1px;
   left: 0px;
-  width: 24px;
-  height: 24px;
+  width: 21px;
+  height: 21px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .contacts-item:nth-child(1):before {
-  background-image: url('assets/svg/1.svg');
+  background-image: url('assets/svg/iconmonstr-location-5.svg');
 }
 
 .contacts-item:nth-child(2):before {
-  top: 3px;
-  left: 0px;
-  width: 21px;
-  height: 21px;
-  background-image: url('assets/svg/2.svg');
+
+  background-image: url('assets/svg/iconmonstr-email-5.svg');
 }
 
 .contacts-item:nth-child(3):before {
-  top: 4px;
-  left: 0px;
-  width: 19px;
-  height: 19px;
-  background-image: url('assets/svg/3.svg');
+  background-image: url('assets/svg/iconmonstr-github-3.svg');
 }
 
 .contacts-item:nth-child(4):before {
-  top: 3px;
-  left: 0px;
-  width: 21px;
-  height: 21px;
-  background-image: url('assets/svg/4.svg');
+  background-image: url('assets/svg/iconmonstr-telegram-3.svg');
 }
 
 .contacts-item:nth-child(5):before {
-  background-image: url('assets/svg/5.svg');
+  background-image: url('assets/svg/iconmonstr-discord-1.svg');
 }
 
 .contacts-item:nth-child(6):before {
-  background-image: url('assets/svg/6.svg');
+  background-image: url('assets/svg/iconmonstr-linkedin-3.svg');
 }
 
 .footer {
