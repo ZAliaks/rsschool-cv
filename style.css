@@ -31,15 +31,17 @@ html {
 
 .nav-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   list-style: none;
+  padding-left: 0;
 }
 
 .nav-link {
   position: relative;
   padding: 0 10px;
   text-decoration: none;
+  white-space: nowrap;
   font-size: 20px;
   font-weight: 300;
   line-height: 50px;
@@ -201,13 +203,13 @@ html {
   color: #829985;
 }
 
-.section-item a {
+.link {
   text-decoration: none;
   color: #829985;
   transition: color 0.5s;
 }
 
-.section-item a:hover {
+.link:hover {
   color: #4d2323;
 }
 
@@ -220,10 +222,11 @@ html {
   height: 24px; 
   background-size: contain;
   background-repeat: no-repeat;
+  filter: invert(59%) sepia(8%) saturate(632%) hue-rotate(77deg) brightness(97%) contrast(93%);
 }
 
 .contacts-item:nth-child(1):before {
-  background-image: url("assets/svg/1.svg");
+  background-image: url("assets/svg/iconmonstr-location-12.svg");
 }
 
 .contacts-item:nth-child(2):before {
@@ -231,7 +234,7 @@ html {
   left: 0px;
   width: 21px;
   height: 21px;
-  background-image: url("assets/svg/2.svg");
+  background-image: url("assets/svg/iconmonstr-email-11.svg");
 }
 
 .contacts-item:nth-child(3):before {
@@ -239,7 +242,7 @@ html {
   left: 0px;
   width: 19px;
   height: 19px;
-  background-image: url("assets/svg/3.svg");
+  background-image: url("assets/svg/iconmonstr-github-1.svg");
 }
 
 .contacts-item:nth-child(4):before {
@@ -247,15 +250,15 @@ html {
   left: 0px;
   width: 21px;
   height: 21px;
-  background-image: url("assets/svg/4.svg");
+  background-image: url("assets/svg/iconmonstr-telegram-5.svg");
 }
 
 .contacts-item:nth-child(5):before {
-  background-image: url("assets/svg/5.svg");
+  background-image: url("assets/svg/iconmonstr-discord-5.svg");
 }
 
 .contacts-item:nth-child(6):before {
-  background-image: url("assets/svg/6.svg");
+  background-image: url("assets/svg/iconmonstr-linkedin-5.svg");
 }
 
 .footer {
@@ -374,4 +377,5 @@ html {
   .main-title {
     font-size: 24px;
     letter-spacing: 4px;
-  gh-pages
+  }
+}
