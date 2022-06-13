@@ -31,9 +31,10 @@ html {
 
 .nav-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   list-style: none;
+  padding-left: 0;
 }
 
 .nav-link {
